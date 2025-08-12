@@ -1,0 +1,77 @@
+.animal-list {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.animal-list h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+/* Estilo da tabela */
+.animal-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.animal-table th,
+.animal-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.animal-table th {
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: bold;
+}
+
+.animal-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.animal-table tr:hover {
+  background: #eef2ff;
+}
+
+/* Botões */
+.btn-detail {
+  padding: 6px 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btn-detail:hover {
+  background: #1e40af;
+}
+
+.btn-delete {
+  padding: 6px 12px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btn-delete:hover {
+  background: #b91c1c;
+}
+
+/* Espaçamento entre botões */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}

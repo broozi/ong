@@ -1,0 +1,11 @@
+.appContainer {
+  max-width: 100%;
+  margin: auto;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  color: #2563eb;
+  text-align: center;
+}
